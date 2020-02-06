@@ -1,0 +1,102 @@
+//Do not modify. This file is auto generated
+
+#pragma once
+namespace CR
+{
+	namespace AssetList
+	{
+		 const int null_image = 0;
+		 const int Pause_Button = 1;
+		 const int Pause_Menu_Background = 2;
+		 const int Pause_Options_Button = 3;
+		 const int Pause_Resume_Game_Button = 4;
+		 const int Pause_How_To_Play_Button = 5;
+		 const int Pause_Main_Menu_Button = 6;
+		 const int Menu_Background = 7;
+		 const int Menu_Play_Game_Button = 8;
+		 const int Menu_Help_Info_Button = 9;
+		 const int Menu_Options_Button = 10;
+		 const int Splash_Screen_1 = 11;
+		 const int Options_Base = 12;
+		 const int Options_Exit_Button = 13;
+		 const int Options_Check = 14;
+		 const int Menu_More_Games_Button = 15;
+		 const int InfoHelp_AFTB_Button = 16;
+		 const int InfoHelp_BoB_Button = 17;
+		 const int InfoHelp_How_to_Play_Button = 18;
+		 const int InfoHelp_Main_Menu_Button = 19;
+		 const int InfoHelp_Credits = 20;
+		 const int InfoHelp_Help1 = 21;
+		 const int InfoHelp_More_Games_Background = 22;
+		 const int Scrapbook_LArrow_Button = 23;
+		 const int Scrapbook_RArrow_Button = 24;
+		 const int Selector_2 = 25;
+		 const int Selector_3 = 26;
+		 const int Piece_Shatter_1 = 27;
+		 const int Piece_Shatter_2 = 28;
+		 const int Piece_Shatter_3 = 29;
+		 const int Piece_Shatter_4 = 30;
+		 const int Piece_Shatter_5 = 31;
+		 const int Piece_Shatter_6 = 32;
+		 const int No_Moves_Cover = 33;
+		 const int Chain_Match_Tags = 34;
+		 const int Bonus_Tags = 35;
+		 const int HUD_Bottom = 36;
+		 const int HUD_Top = 37;
+		 const int Game_Background = 38;
+		 const int Time_Tag = 39;
+		 const int Menu_Button_High_Scores = 40;
+		 const int Font_Score_1 = 41;
+		 const int Tiles_BonusA = 42;
+		 const int Tiles_SkullB = 43;
+		 const int InfoHelp_BoB2_Button = 44;
+		 const int InfoHelp_BumbleTales_Button = 45;
+		 const int Bonus_BG_Overlay = 46;
+		 const int Bonus_Card_2XMult = 47;
+		 const int Bonus_Card_3XMult = 48;
+		 const int Bonus_Card_5KPoints = 49;
+		 const int Bonus_Card_10KPoints = 50;
+		 const int Bonus_Card_15Sec = 51;
+		 const int Bonus_Card_20KPoints = 52;
+		 const int Bonus_Card_30Sec = 53;
+		 const int Bonus_Card_Blink = 54;
+		 const int Bonus_Card_Dim = 55;
+		 const int Bonus_Card_Spin_Out = 56;
+		 const int Bonus_Card_Super_Charge = 57;
+		 const int Bonus_Card_WildHearts = 58;
+		 const int Bonus_Harry_Intro_1 = 59;
+		 const int Bonus_Round_Header = 60;
+		 const int Pick_A_Card_Loop = 61;
+		 const int Tiles = 62;
+		 const int Timer1Base = 63;
+		 const int Timer1Bubble = 64;
+		 const int Timer1Color = 65;
+		 const int Timer2Base = 66;
+		 const int Timer2Bubble = 67;
+		 const int Timer2Color = 68;
+		 const int HUD_Top_2 = 69;
+		 const int InfoHelp_Help2 = 70;
+		 const int InfoHelp_Help3 = 71;
+		 const int Loading_1 = 72;
+		 const int Menu_High_Scores_Button_2 = 73;
+		 const int Menu_Free_Play_Button = 74;
+		 const int Menu_Action_Mode_Button = 75;
+		 const int High_Score_Leaderboards_Button = 76;
+		 const int Scoring_Upload_Score_Button = 77;
+		 const int High_Score_Background = 78;
+		 const int High_Score_Font = 79;
+		 const int Scoring_Enter_Initials_Button = 80;
+		 const int Scoring_No_Button = 81;
+		 const int Scoring_Yes_Button = 82;
+		 const int Scores_New_High_Score_Tag = 83;
+		 const int Scores_Score_Tally_Background = 84;
+		 const int Scores_Score_Tally_Font = 85;
+		 const int Scores_Time_Tag_2 = 86;
+		 const int Scores_Time_Tally_Font = 87;
+		 const int Scores_Play_Again_Header = 88;
+		 const int High_Score_Initials_Font = 89;
+		 const int Piece_Shatter_0 = 90;
+		 const int Wild_Heart_Tile = 91;
+		 const int Bonus_Up = 92;
+	}
+}

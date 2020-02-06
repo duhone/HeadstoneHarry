@@ -1,0 +1,149 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 \ul \ulc0 BASE GAME FOLDER\ulnone \
+\
+
+\b BonusTags.png
+\b0 \
+-display over bottom timer bar when a bonus is active. Each tag corresponds to a bonus scenario and also accounts for stacked bonuses if you retrigger the bonus round before your previous bonus has expired. \
+\
+Stacked bonuses change properties under certain combinations. For instance, a multiplier followed by a multiplier will stack the multiplier amount and refill the bonus timer fully. A multiplier followed by a time bonus will add whatever the time bonus amount was to the existing bonus timer. A time bonus followed by a multiplier should however cancel out the bonus time and give the multiplier bonus priority.\
+\
+Note: WILD HEARTS is a new bonus type that turns all Hearts wild for 20-30 seconds. SUPER CHARGE turns all skull pieces into super charged skulls for 20-30 seconds as well. Retriggering the bonus round while these powers are still active and getting time bonuses refills this meter by that amount.\
+\
+
+\b ChainMatchTags.png
+\b0 \
+- display as chains are made\
+\
+
+\b Font_Score1.png
+\b0 \
+- used to show score at top Hud\
+\
+Score distribution:\
+normal matches = 10 points per block\
+chains = multiply the score for the move by the chain amount (2 chain = 2x, 5 chain =5x etc).\
+\
+
+\b HUDBottom.png
+\b0 \
+- hud cover for bottom\
+
+\b \
+HUDTop.png
+\b0 \
+- hud cover for top\
+\
+
+\b NoMovesCover.png
+\b0 \
+- cover gameboard when no moves are possible and board repopulates\
+\
+
+\b Pause.png
+\b0 \
+-pause button\
+\
+
+\b StoryModeBG.png
+\b0 \
+- base background \
+\
+
+\b TimerBase1.png
+\b0 \
+- upper timer bar base. loop infinitely\
+\
+
+\b TimerBase2.png
+\b0 \
+- lower timer bar base. loop infinitely\
+\
+
+\b TimerFIll1.png
+\b0 \
+- covers up TimerBase1 so that it looks like the timer is decreasing. As time counts down TimerBase1 will fill with black.\
+\
+Base Time scale = (subject to change)\
+60 seconds for first 25,000 points\
+45 seconds until 50,000\
+30 seconds until 100,000\
+20 seconds until 250,000 and higher\
+\
+You get back 1 second for every tile broken\
+As the scale of the time changes so does the amount you get back\
+So eventually when the timer = 30 seconds total then you get back .5 seconds for every piece instead of 1. \
+\
+
+\b TimerFill2.png
+\b0 \
+- works the same as the TimerFill1.png except only when bonuses are activated\
+\
+
+\b TimeTag.png
+\b0 \
+- display in left corner of upper timer bar (layered on top of both TimerBase and TimerFill)\
+\
+\
+\
+\
+\ul BONUS GAME FOLDER\
+\
+
+\b \ulnone BonusBGOverlay.png
+\b0 \
+- fade in over basegame during bonus round. Fade out when bonus selection is over.\
+\
+
+\b BonusCard_X.png
+\b0 \
+- when player selects a card, play corresponding award\
+\
+
+\b BonusCard_blink.png
+\b0 \
+- when cards spin out loop this animation until the player chooses a card\
+\
+
+\b BonusCard_Dim.png
+\b0 \
+- cover non selected cards with these dim states. Display bonuses you could have won.\
+\
+
+\b BonusCard_SpinOut.png
+\b0 \
+- play during transition to the bonus game\
+\
+
+\b BonusHarryIntro1+2.png
+\b0 \
+- play during transition to the bonus game\
+\
+
+\b BonusHarryLoop1+2.png
+\b0 \
+- play continuously until player chooses a card\
+\
+
+\b BonusHarrySelect1+2.png
+\b0 \
+- play when player selects a card\
+\
+
+\b BonusRoundHeader.png
+\b0 \
+- play during transition to the bonus game\
+\
+
+\b PickACardLoop.png
+\b0 \
+- play and loop when cards are in their blinking state. remove when card has been chosen.\
+\
+\
+\
+}
